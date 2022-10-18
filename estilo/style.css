@@ -1,0 +1,229 @@
+@charset "UTF-08";
+
+/*
+    white
+    #004367
+    #015684
+    #506570
+    #c6c6c6
+*/
+
+:root{
+    --cor0: white;
+    --cor01:  #004367;
+    --cor02: #015684;
+    --cor03:  #506570;
+    --cor04: #c6c6c6;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c6c6c6;
+}
+
+header{
+    background-image: linear-gradient(to top, #004367, #015684, #506570, #c6c6c6 );
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: var(--cor0);
+    font-family: 'bebas Neue';
+    font-size: 3em;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267)
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315) / 50%);
+}
+
+nav{
+    background-color: #00436700;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a{
+    color: var(--cor0);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor0);
+    color: #004367;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 20px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    font-family:'idroid', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-indent: 15px;
+    letter-spacing: 2px;
+    color: #004367;
+    text-align: left;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 0px;
+}
+
+main h2{
+    font-family: 'idroid', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 30px;
+    text-indent: 10px;
+    color: white;
+    background-image: linear-gradient(to right, #004367, #01568496, #5065708a, #c6c6c60c);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main strong{
+    color: #015684;
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #015684;
+    background-color: #c6c6c682;
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #004367;
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px;
+}
+
+picture{
+    width: 100%;
+}
+
+img#and{
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+div.video{
+    background-color: #015684;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section#pag{
+    background-color: #50657083;
+    margin: 30px 10px 20px 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#pag h1{
+    background-color: #015684;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    text-indent: 5px;
+    font-size: 1.17em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section#pag p{
+    font-size: 1em;
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px;
+}
+
+section#pag ul{
+    list-style-type:'\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    font-size: 17px;
+}
+
+footer{
+    background-color: #015684;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #c6c6c6;
+}
